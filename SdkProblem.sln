@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdkProblem", "src\SdkProblem.csproj", "{7373DC6F-EA61-470F-8BE7-5CFC6CC453FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other Files", "Other Files", "{BEC6A92E-58B4-4110-8601-DE426AA4B8CE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		CodeMetricsConfig.txt = CodeMetricsConfig.txt
+		Directory.Packages.props = Directory.Packages.props
+		Readme.md = Readme.md
+		rename_me_to_global.json = rename_me_to_global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7373DC6F-EA61-470F-8BE7-5CFC6CC453FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7373DC6F-EA61-470F-8BE7-5CFC6CC453FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7373DC6F-EA61-470F-8BE7-5CFC6CC453FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7373DC6F-EA61-470F-8BE7-5CFC6CC453FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62121321-C84A-4F7C-98C6-C5BD981A4E79}
+	EndGlobalSection
+EndGlobal

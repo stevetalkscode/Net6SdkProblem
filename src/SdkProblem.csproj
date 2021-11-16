@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <ItemGroup>    
+    <PackageReference Include="Microsoft.CodeAnalysis.Metrics" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\CodeMetricsConfig.txt" />
+  </ItemGroup>
+</Project>
